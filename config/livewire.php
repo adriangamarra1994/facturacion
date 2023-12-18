@@ -26,8 +26,8 @@ return [
     |
     */
 
-    // 'view_path' => resource_path('views/livewire'),
-    'view_path' => resource_path('https://sea-lion-app-l3672.ondigitalocean.app'),
+    'view_path' => resource_path('views/livewire'),
+    // 'view_path' => resource_path('https://sea-lion-app-l3672.ondigitalocean.app'),
 
     /*
     |---------------------------------------------------------------------------
