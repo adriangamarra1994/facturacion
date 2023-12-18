@@ -1,6 +1,6 @@
 <div>
 
-    {{-- <div class="container">
+    <div class="container">
 
         <h1 class="title">
             <span class="span-title">
@@ -151,9 +151,9 @@
 
 
 
-    </div> --}}
+    </div>
 
-    HOLAS
+  
 
 
 </div>
