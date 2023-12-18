@@ -7,7 +7,6 @@
                    @livewire('companies.company-index')
                </main>
         </div>
-        Hola aqui deberia cargar
      </div>
         
    
