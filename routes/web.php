@@ -25,7 +25,7 @@ Route::middleware([
     'verified',
 ])->group(function () {
     Route::resource('/companies', CompanyController::class)->names('companies');
-    Route::get('search',  [CompanyController::class, 'seach'])->name('companies.search');
+    // Route::get('search',  [CompanyController::class, 'seach'])->name('companies.search');
 });
 
 
