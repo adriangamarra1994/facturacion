@@ -1,4 +1,4 @@
-<div>
+
 
     <div class="container">
 
@@ -8,7 +8,7 @@
             </span>
         </h1>
 
-        <div class="card space-y-10">
+        {{-- <div class="card space-y-10">
 
             <div class=" flex flex-col items-center space-y-2 card-body space-x-1 sm:space-y-0 sm:flex-row justify-between  ">
                 <x-input wire:model.live="query" name="query" class="w-full sm:w-10/12" type="text"
@@ -98,11 +98,11 @@
 
 
 
-        </div>
+        </div> --}}
 
 
 
-        @push('js')
+        {{-- @push('js')
             <script>
                 Livewire.on('alert', function(message) {
                     Swal.fire({
@@ -146,9 +146,9 @@
                     });
                 });
             </script>
-        @endpush
+        @endpush --}}
 
-
+ 
 
 
     </div>
@@ -156,5 +156,4 @@
   
 
 
-</div>
 
