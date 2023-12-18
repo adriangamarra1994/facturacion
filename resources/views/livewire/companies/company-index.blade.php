@@ -1,6 +1,6 @@
 <div>
 
-    <div class="container">
+    {{-- <div class="container">
 
         <h1 class="title">
             <span class="span-title">
@@ -18,7 +18,6 @@
                     <a href="{{route('companies.create')}}" class="btn btn-blue w-full">
                         Nuevo Registro
                     </a>
-                    {{-- @livewire('admin.administracion.groups-create') --}}
                 </div>
 
             </div>
@@ -103,54 +102,6 @@
 
 
 
-        {{-- <x-modal wire:model="open">
-
-            <slot name="title">
-                <div class="subtitle text-center">
-                    <span class="span-title">Actualizar Grupo</span>
-                </div>
-            </slot>
-
-            <slot name="content">
-
-                <div class=" bg-slate-800">
-
-                    <div class="p-10 space-y-6">
-
-                        <div class="space-y-2">
-                            <x-input-label value="Codigo de grupo" class="text-white" />
-                            <x-text-input type="text" wire:model="group.code" class="w-full" />
-                        </div>
-
-                        <div class="space-y-2">
-                            <x-input-label value="Descripcion de grupo" class="text-white" />
-                            <x-text-input type="text" wire:model="group.name" class="w-full" />
-                        </div>
-
-                        <button class="btn btn-red" wire:click="$set('open',false)">
-                            Cancelar
-                        </button>
-
-                        <button class="btn btn-green" wire:click="update" wire:loading.attr="disabled"
-                            class="disabled:opacity-25">
-                            Guardar cambios
-                        </button>
-                    </div>
-
-                </div>
-
-            </slot>
-
-            <slot name="footer">
-
-            </slot>
-
-
-
-
-        </x-modal> --}}
-
-
         @push('js')
             <script>
                 Livewire.on('alert', function(message) {
@@ -200,7 +151,9 @@
 
 
 
-    </div>
+    </div> --}}
+
+    HOLAS
 
 
 </div>
