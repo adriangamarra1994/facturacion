@@ -1,5 +1,5 @@
-<div>
-      <div class="container">
+
+    <div class="container">
 
         <h1 class="title">
             <span class="span-title">
@@ -9,9 +9,10 @@
 
         <div class="card space-y-10">
 
-            <div class=" flex flex-col items-center space-y-2 card-body space-x-1 sm:space-y-0 sm:flex-row justify-between  ">
-                <x-input wire:model.live="query" name="query" class="w-full sm:w-10/12" type="text"
-                    placeholder="Aqui puedes bucar" />
+            <div
+                class=" flex flex-col items-center space-y-2 card-body space-x-1 sm:space-y-0 sm:flex-row justify-between  ">
+                {{-- <x-input wire:model.live="query" name="query" class="w-full sm:w-10/12" type="text"
+                    placeholder="Aqui puedes bucar" /> --}}
 
                 {{-- <div class="w-full sm:w-2/12 flex items-center">
                     <a href="{{route('companies.create')}}" class="btn btn-blue w-full">
@@ -73,8 +74,6 @@
                                             </button>
                                         </td>
                                     </tr>
-
-                                    
                                 @endforeach
 
                             </tbody>
@@ -151,4 +150,3 @@
 
 
     </div>
-</div>
