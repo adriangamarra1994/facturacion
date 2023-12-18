@@ -13,11 +13,11 @@
                 <x-input wire:model.live="query" name="query" class="w-full sm:w-10/12" type="text"
                     placeholder="Aqui puedes bucar" />
 
-                <div class="w-full sm:w-2/12 flex items-center">
+                {{-- <div class="w-full sm:w-2/12 flex items-center">
                     <a href="{{route('companies.create')}}" class="btn btn-blue w-full">
                         Nuevo Registro
                     </a>
-                </div>
+                </div> --}}
 
             </div>
 
