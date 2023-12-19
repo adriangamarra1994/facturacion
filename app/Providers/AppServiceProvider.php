@@ -25,6 +25,6 @@ class AppServiceProvider extends ServiceProvider
             \URL::forceScheme('https');
           }
 
-          Livewire::component('company-index', CompanyIndex::class);
+          Livewire::component('companies.company-index', CompanyIndex::class);
     }
 }
