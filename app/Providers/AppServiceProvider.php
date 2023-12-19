@@ -2,7 +2,9 @@
 
 namespace App\Providers;
 
+use App\Livewire\companies\CompanyIndex;
 use Illuminate\Support\ServiceProvider;
+use Livewire\Livewire;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -22,5 +24,7 @@ class AppServiceProvider extends ServiceProvider
         if($this->app->environment('production')) {
             \URL::forceScheme('https');
           }
+
+          Livewire::component('company-index', CompanyIndex::class);
     }
 }
